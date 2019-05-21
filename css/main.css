@@ -1,3 +1,4 @@
+/* MAIN PAGE  */
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 20px;
@@ -5,6 +6,9 @@ body {
 	cursor: default;
   max-width:
 }
+
+
+/* HEADER */
 
 .header-container {
   background-color: #f1f3f2;
@@ -49,4 +53,63 @@ body {
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: #8B2E5F;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+#left-foot {
+  
+}
+
+#center-foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+#return {
+  text-align: center;
+  font-family: 'Lato', serif;
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 50px 0;
+}
+
+.copyright {
+  color: white;
+  font-weight: 600;
+}
+
+#email-button {
+  color: white;
+}
+
+#facebook-button {
+  color: white;
+}
+
+#left-foot {
+
 }
