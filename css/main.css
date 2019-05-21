@@ -1,0 +1,52 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+  max-width:
+}
+
+.header-container {
+  background-color: #f1f3f2;
+}
+
+.container {
+	max-width: 1140px;
+  /* max-height: 150px; */
+	margin: auto;
+  /* padding-top: 25px; */
+}
+
+.container a {
+  text-decoration: none;
+  font-family: 'Lato', serif;
+  /* font-weight: bold; */
+  color: #8B2E5F;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: 'Lato', serif;
+  font-size: 3.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #8B2E5F;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  overflow: hidden;
+}
+
+.body {
+  max-width: 1140px;
+  margin: 0 auto;
+  max-height: 800px;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
