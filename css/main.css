@@ -4,7 +4,16 @@ body {
 	font-size: 20px;
 	line-height: 1.5;
 	cursor: default;
-  max-width:
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+/* is this necessary? */
+.index-page-container {
 }
 
 
@@ -47,15 +56,101 @@ body {
 	margin: 15px 0 0 0;
 }
 
+
+/* BODY */
+
 .body {
-  max-width: 1140px;
-  margin: 0 auto;
-  max-height: 800px;
+	max-width: 1140px;
+	margin: 0 auto;
+  display: flex;
+	/* flex-direction: column; */
+  justify-content:space-around;
+  /* padding-top: 50px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+  padding-left: 120px; */
 }
 
-p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+.mainbar-container {
+	margin-right: 50px;
+	max-width: 55%;
+
+}
+
+.mainbar-container h2 {
+	margin-top: 0px;
+}
+
+.rightbar-container {
+  max-width: 30%;
+}
+
+#assistance {
+	border-style: solid;
+	padding: 0 10px 0 10px;
+	margin-bottom: 25px;
+}
+
+#assistance h4 {
+	text-align: center;
+	/* font-size: 22px; */
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+#assistance #number {
+	text-align: center;
+	font-size: 22px;
+	color: #8B2E5F;
+	font-weight: bold;
+}
+
+#events {
+	border-style: solid;
+	margin-bottom: 25px;
+	padding: 0 10px 0 10px;
+}
+
+#events h4 {
+	text-align: center;
+	/* font-size: 22px; */
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 16px 0 16px 0;
+}
+
+#events ul {
+	padding-left: 30px;
+}
+
+#events li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+#abuse-explainer {
+	border-style: solid;
+	margin-bottom: 25px;
+	padding: 0 10px 0 10px;
+}
+
+#abuse-explainer h4 {
+	text-align: center;
+	/* font-size: 22px; */
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 16px 0 16px 0;
+}
+
+#donate {
+	border-style: solid;
+	margin-bottom: 25px;
+	padding: 0 10px 0 10px;
+}
+
+#donate h4 {
+	text-align: center;
+	/* font-size: 22px; */
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 16px 0 16px 0;
 }
 
 
@@ -93,13 +188,13 @@ footer {
 	font-family: 'Lato', serif;
 }
 
-#center-foot {
+/* #center-foot {
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
 	max-width: 30%;
-}
+} */
 
 #return {
   text-align: center;
@@ -116,6 +211,7 @@ footer {
 .copyright {
   color: white;
   font-weight: 600;
+	font-size: 14px;
 }
 
 #email-button {
