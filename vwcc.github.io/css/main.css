@@ -1,0 +1,247 @@
+/* MAIN PAGE  */
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+img {
+	max-width: 100%
+}
+
+/* is this necessary? */
+.index-page-container {
+}
+
+
+/* HEADER */
+
+.header-container {
+  background-color: #f1f3f2;
+	margin-bottom: 32px;
+	padding-bottom: 15px;
+}
+
+.container {
+	max-width: 1140px;
+  /* max-height: 150px; */
+	margin: auto;
+  padding-top: 20px;
+}
+
+.container a {
+  text-decoration: none;
+  font-family: 'Lato', serif;
+  /* font-weight: bold; */
+  color: #8B2E5F;
+}
+
+.container h1 {
+  text-align: center;
+  font-family: 'Lato', serif;
+  font-size: 3.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #8B2E5F;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  overflow: hidden;
+	margin: 15px 0 0 0;
+}
+
+
+/* BODY */
+
+.body {
+	max-width: 1140px;
+	margin: 0 auto;
+  display: flex;
+	/* flex-direction: column; */
+  justify-content:space-around;
+  /* padding-top: 50px;
+  padding-right: 120px;
+  padding-bottom: 50px;
+  padding-left: 120px; */
+}
+
+.mainbar-container {
+	margin-right: 50px;
+	max-width: 55%;
+
+}
+
+.mainbar-container h2 {
+	margin-top: 0px;
+}
+
+.mainbar-container li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+.rightbar-container {
+  max-width: 30%;
+}
+
+#assistance {
+	border-style: solid;
+	padding: 0 10px 0 10px;
+	margin-bottom: 25px;
+}
+
+#assistance h4 {
+	text-align: center;
+	/* font-size: 22px; */
+	font-family: 'Lato', 'Source Sans Pro', sans-serif;
+
+}
+
+#assistance #number {
+	text-align: center;
+	font-size: 22px;
+	color: #8B2E5F;
+	font-weight: bold;
+}
+
+#events {
+	border-style: solid;
+	margin-bottom: 25px;
+	padding: 0 10px 0 10px;
+}
+
+#events h4 {
+	text-align: center;
+	/* font-size: 22px; */
+	font-family: 'Lato', 'Source Sans Pro', sans-serif;
+	margin: 16px 0 16px 0;
+}
+
+#events ul {
+	padding-left: 30px;
+}
+
+#events li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
+#abuse-explainer {
+	border-style: solid;
+	margin-bottom: 25px;
+	padding: 0 10px 0 10px;
+}
+
+#abuse-explainer h4 {
+	text-align: center;
+	/* font-size: 22px; */
+	font-family: 'Lato', 'Source Sans Pro', sans-serif;
+	margin: 16px 0 16px 0;
+}
+
+#donate {
+	border-style: solid;
+	margin-bottom: 25px;
+	padding: 0 10px 0 10px;
+}
+
+#donate h4 {
+	text-align: center;
+	/* font-size: 22px; */
+	font-family: 'Lato', 'Source Sans Pro', sans-serif;
+	margin: 16px 0 16px 0;
+}
+
+
+/* FOOTER */
+
+footer {
+  background-color: #8B2E5F;
+		margin-top: 32px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+#left-foot {
+	max-width: 30%;
+}
+
+#left-foot p {
+	color: white;
+	margin: 8px 0 8px 0;
+	font-size: 18px;
+}
+
+#left-foot h2 {
+	color: white;
+	font-family: 'Lato', serif;
+}
+
+/* #center-foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+	max-width: 30%;
+} */
+
+#return {
+  text-align: center;
+  font-family: 'Lato', serif;
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+  margin: 35px 0 35px 0;
+}
+
+.copyright {
+  color: white;
+  font-weight: 600;
+	font-size: 14px;
+}
+
+#email-button {
+  color: white;
+}
+
+#facebook-button {
+  color: white;
+}
+
+#right-foot {
+	overflow-wrap: break-word;
+	max-width: 30%;
+}
+
+#right-foot h4 {
+	color: white;
+	font-family: 'Lato', serif;
+	margin-bottom: 16px;
+	text-align: center;
+}
+
+#right-foot p {
+	color: white;
+}
