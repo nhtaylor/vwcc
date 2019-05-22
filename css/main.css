@@ -81,6 +81,11 @@ p {
 	margin-top: 0px;
 }
 
+.mainbar-container li {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+}
+
 .rightbar-container {
   max-width: 30%;
 }
